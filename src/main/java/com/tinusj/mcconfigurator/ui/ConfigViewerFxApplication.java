@@ -1,5 +1,6 @@
-package com.tinusj.mcconfigurator;
+package com.tinusj.mcconfigurator.ui;
 
+import com.tinusj.mcconfigurator.McConfiguratorApplication;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;

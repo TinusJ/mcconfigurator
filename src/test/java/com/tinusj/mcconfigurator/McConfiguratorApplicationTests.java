@@ -1,5 +1,9 @@
 package com.tinusj.mcconfigurator;
 
+import com.tinusj.mcconfigurator.config.CfgConfigParser;
+import com.tinusj.mcconfigurator.config.JsonConfigParser;
+import com.tinusj.mcconfigurator.config.TomlConfigParser;
+import com.tinusj.mcconfigurator.service.ConfigFileService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;

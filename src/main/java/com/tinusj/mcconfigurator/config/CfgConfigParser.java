@@ -1,4 +1,4 @@
-package com.tinusj.mcconfigurator;
+package com.tinusj.mcconfigurator.config;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.tinusj.mcconfigurator;
+package com.tinusj.mcconfigurator.config;
 
 import java.util.ArrayList;
 import java.util.Collections;

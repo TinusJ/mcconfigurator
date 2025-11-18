@@ -1,4 +1,4 @@
-package com.tinusj.mcconfigurator;
+package com.tinusj.mcconfigurator.config;
 
 public enum ConfigType {
     JSON(".json"),

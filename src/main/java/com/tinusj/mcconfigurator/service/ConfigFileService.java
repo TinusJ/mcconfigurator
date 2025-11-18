@@ -1,5 +1,9 @@
-package com.tinusj.mcconfigurator;
+package com.tinusj.mcconfigurator.service;
 
+import com.tinusj.mcconfigurator.config.ConfigNode;
+import com.tinusj.mcconfigurator.config.ConfigParser;
+import com.tinusj.mcconfigurator.config.ConfigType;
+import com.tinusj.mcconfigurator.config.ParsedConfig;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
