@@ -14,7 +14,7 @@ public class ConfigViewerFxApplication extends Application {
 
     @Override
     public void init() {
-        applicationContext = new SpringApplicationBuilder(ConfigViewerFxApplication.class)
+        applicationContext = new SpringApplicationBuilder(McConfiguratorApplication.class)
                 .run(getParameters().getRaw().toArray(new String[0]));
     }
 
@@ -23,7 +23,7 @@ public class ConfigViewerFxApplication extends Application {
         MainWindowController controller = applicationContext.getBean(MainWindowController.class);
         Scene scene = new Scene(controller.getRoot(), 1000, 600);
 
-        primaryStage.setTitle("Config Viewer");
+        primaryStage.setTitle("MC Configurator");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
