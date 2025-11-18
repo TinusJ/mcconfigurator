@@ -1,4 +1,4 @@
-package com.tinusj.mcconfigurator;
+package com.tinusj.mcconfigurator.config;
 
 import com.moandjiezana.toml.Toml;
 import org.springframework.stereotype.Component;

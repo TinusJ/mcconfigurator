@@ -1,4 +1,4 @@
-package com.tinusj.mcconfigurator;
+package com.tinusj.mcconfigurator.config;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,5 +1,8 @@
-package com.tinusj.mcconfigurator;
+package com.tinusj.mcconfigurator.ui;
 
+import com.tinusj.mcconfigurator.config.ConfigNode;
+import com.tinusj.mcconfigurator.config.ParsedConfig;
+import com.tinusj.mcconfigurator.service.ConfigFileService;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
@@ -17,12 +20,10 @@ import javafx.scene.layout.HBox;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Window;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
-@RequiredArgsConstructor
 public class MainWindowController {
 
     private final ConfigFileService configFileService;

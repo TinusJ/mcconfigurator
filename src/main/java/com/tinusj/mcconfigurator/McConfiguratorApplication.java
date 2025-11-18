@@ -1,5 +1,6 @@
 package com.tinusj.mcconfigurator;
 
+import com.tinusj.mcconfigurator.ui.ConfigViewerFxApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
